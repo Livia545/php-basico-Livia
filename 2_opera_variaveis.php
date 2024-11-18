@@ -3,6 +3,8 @@
 
 <!-- Esse programa recebe dois valores pela URL usando o método GET -->
 
+<!-- Exemplo de URL:http://localhost/php-basico-Livia/2_opera_variaveis.php?numero1=100&numero2=30
+
 <?php
     $numero1 = $_GET['numero1'];
     $numero2 = $_GET['numero2'];
