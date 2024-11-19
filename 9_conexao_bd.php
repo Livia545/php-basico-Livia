@@ -23,7 +23,7 @@ $dbname = "exercicio";
 try {
     // Tenta criar uma conexão com o banco de dados
     //Confere se as informações estão corretas
-    $conn = new mysql($servername, $username, $password, $dbname);
+    $conn = new mysqli ($servername, $username, $password, $dbname);
 
     // Verifica se houver algum erro na conexão
     if ($conn->connect_error) {
